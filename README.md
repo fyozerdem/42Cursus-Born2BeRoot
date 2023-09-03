@@ -74,22 +74,14 @@ karşılaştır.Bu idnin işlem sornası değişmemesini istiyosan sanal makine
 
     1.  Debian apt’dir, CentOS yum.
 
-    <!-- -->
-
     2.  CentOS kararlı bir yapıdadır(Az ve Öz güncelleme alıyor). Debian
-        daha az kararlı(Çok Güncelleme
-
-    Alıyor).
+        daha az kararlı(Çok Güncelleme Alıyor).
 
     3.  CentOS redhat tarafından lanse edilirken, Debian bireysel lanse
         ediliyor.
 
-    <!-- -->
-
     4.  CentOS kendi güvenlik sistemiyle geliyor(Güvenlik Sisteminin
         Adı: Selinux).
-
-    <!-- -->
 
     5.  CentOS kurumsal alanda daha çok tercih ediliyor, Debian
         bireysel.
@@ -211,7 +203,7 @@ karşılaştır.Bu idnin işlem sornası değişmemesini istiyosan sanal makine
 
     disable -\> `systemctl disable ufw`
 
-    inactive → `systemctl stop `ufw
+    inactive → `systemctl stop ufw`
 
     -   enable vs stop
 
@@ -256,33 +248,29 @@ karşılaştır.Bu idnin işlem sornası değişmemesini istiyosan sanal makine
 
 -   debian mı rocky mi kontrol et
 
-    `cat etc/os-release` → debianın verisonunu gösterir
+    `cat etc/os-release` → debianın versyonunu gösterir
 
     <figure>
-    <img
-    src="Sorular%20167ee0641edc429fb2420d028dc41017/Ekran_Resmi_2023-08-14_OS_2.11.15.png"
-    style="width:1032px" />
+    <img width="496" alt="Ekran_Resmi_2023-08-14_OS_2 11 15" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/f92b5686-bbb7-4727-931b-40cc8c5f7fdc">
     </figure>
 
 ------------------------------------------------------------------------
 
 ****User :****
 
--   öğrencinin sudo ve user42 grubuna ait olup olmadığına bakın
+-   öğrencinin sudo ve user42 grubuna ait olup olmadığına bakın.
 
     `grep -w sudo etc/group` or `getent group sudo`
 
     `grep -w user42 etc/group` or `getent group user42`
 
     <figure>
-    <img
-    src="Sorular%20167ee0641edc429fb2420d028dc41017/Ekran_Resmi_2023-08-14_OS_3.02.46.png"
-    style="width:784px" />
+    <img width="325" alt="Ekran_Resmi_2023-08-14_OS_3 02 46" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/27f565db-c7f3-4350-98cc-a72496273339">
     </figure>
 
 <!-- -->
 
--   Yeni kullanıcı oluştur,şifre kurallarına uygun bir şifre belirle
+-   Yeni kullanıcı oluştur,şifre kurallarına uygun bir şifre belirle.
 
     `sudo adduser kullanıcı`
 
@@ -291,8 +279,8 @@ karşılaştır.Bu idnin işlem sornası değişmemesini istiyosan sanal makine
 
 <!-- -->
 
--   konuda istenen kuralları sanal makinesinde nasıl oluşturduğunu
-    açıkla
+-   Konuda istenen kuralları sanal makinesinde nasıl oluşturduğunu
+    açıkla.
 
     `sudo vim /etc/login.defs` **→ PASS_MAX_DAYS 30,PASS_MIN_DAYS
     2,PASS_WARN_AGE 7**
@@ -305,53 +293,63 @@ karşılaştır.Bu idnin işlem sornası değişmemesini istiyosan sanal makine
 
         → `sudo vim /etc/login.defs` **bu dosyada işlemler sürcek**
 
-        1.  Şifreniz her 30 günde bir süresi dolmalıdır. <span
-            class="mark highlight-yellow">**PASS_MAX_DAYS 30**</span>
+        1.  Şifreniz her 30 günde bir süresi dolmalıdır.
+             <!-- -->
+                  PASS_MAX_DAYS 30
+             <!-- -->
 
         <!-- -->
 
         2.  Bir şifrenin değiştirilmeden önce izin verilen minimum gün
-            sayısı 2 olarak ayarlanacaktır. <span
-            class="mark highlight-yellow">**PASS_MIN_DAYS 2**</span>
-
+            sayısı 2 olarak ayarlanacaktır.
+             <!-- -->
+                  PASS_MIN_DAYS 2
+             <!-- -->
         <!-- -->
 
         3.  Kullanıcı, şifresinin süresi dolmadan 7 gün önce bir uyarı
-            ile bilgilendirilmelidir. <span
-            class="mark highlight-yellow">**PASS_WARN_AGE 7**
-            </span>→`sudo apt install libpam-pwquality -y`→`sudo vim /etc/pam.d/common-password`
+            ile bilgilendirilmelidir.
+            <!-- -->
+                   PASS_WARN_AGE 7
+             <!-- -->
+            
 
         <!-- -->
-
+         
         4.  Şifreniz en az 10 karakter uzunluğunda olmalıdır. Bir büyük
             harf, bir küçük harf ve bir rakam içermelidir. Ayrıca, üç
-            ardışık aynı karakteri içermemelidir. → `ucredit=-1 `**→ en
-            az bir büyük harf içermesini** → `lcredit=-1 `**→** en az
-            bir küçük harf → `dcredit=-1` **→ en az bir sayısal
-            karakter** →` ``maxrepeat=3` **→ En fazla 3 ardışık aynı
-            karakter →** `minlen=10` **→ Şifre minimum uzunluğunu 10
-            karakter**
+            ardışık aynı karakteri içermemelidir.
 
-        <!-- -->
+            `sudo vim /etc/pam.d/common-password`
 
-        5.  Şifre, kullanıcının adını içermemelidir. →`usercheck=1`
+            → `ucredit=-1 `**→ En az bir büyük harf içermeli**
 
+            → `lcredit=-1 `**→ En az bir küçük harf içermeli**
+
+            → `dcredit=-1` **→ En az bir sayı içermeli**
+
+            →` ``maxrepeat=3`**→ En fazla 3 ardışık aynı karakter içerebilir.**
+
+            →`minlen=10` **→ Şifre minimum uzunluğunu 10 karakter**
+
+            →`usercheck=1`**→ Şifre, kullanıcının adını içermemelidir.**
         <!-- -->
 
         6.  Aşağıdaki kural kök (root) şifresi için geçerli değildir:
             Şifre, önceki şifrenin parçası olmayan en az 7 karakter
-            içermelidir. →` ``difok=7` **→** önceki şifrenin parçası
-            olmayan en az 7 karakter
+            içermelidir. 
+
+            →` ``difok=7` **→** önceki şifrenin parçası olmayan en az 7 karakter
 
         <!-- -->
 
-        7.  Tabii ki, kök (root) şifreniz de bu politikaya uymalıdır. →
-            `enforce_for_root `**→** Tüm bu şifre
-            politikasını **root **kullanıcısı üzerinde
+        7.  Tabii ki, kök (root) şifreniz de bu politikaya uymalıdır. 
+           
+            →`enforce_for_root `**→ Tüm bu şifre politikasını **root **kullanıcısı üzerinde uygulanır.**
 
         <figure>
-        <img src="Sorular%20167ee0641edc429fb2420d028dc41017/Untitled.png"
-        style="width:2423px" />
+        ![Untitled](https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/bb278635-eefb-451b-a39c-fb9d1799bc3e)
+
         </figure>
 
         `sha512` → Bu modül, kullanıcıların parola doğrulama işlemlerini
@@ -380,8 +378,7 @@ karşılaştır.Bu idnin işlem sornası değişmemesini istiyosan sanal makine
 
     `sudo addgroup evoluating`
 
-    `grep -w evoluating etc/group` → ` evoluating` groupu var mı kontrol
-    et
+    `grep -w evoluating etc/group` → ` evoluating` groupu var mı kontrol et
 
 <!-- -->
 
