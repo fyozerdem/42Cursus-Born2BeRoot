@@ -1,4 +1,4 @@
-# 42Cursus-Born2BeRoot
+<img width="1080" alt="Ekran_Resmi_2023-08-14_OS_9 12 10" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/75c09a74-303c-4e31-931b-439e60de6920"># 42Cursus-Born2BeRoot
 
 # Sorular
 
@@ -251,7 +251,7 @@ karşılaştır.Bu idnin işlem sornası değişmemesini istiyosan sanal makine
     `cat etc/os-release` → debianın versyonunu gösterir
 
     <figure>
-    <img width="496" alt="Ekran_Resmi_2023-08-14_OS_2 11 15" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/f92b5686-bbb7-4727-931b-40cc8c5f7fdc">
+      <img width="496" alt="os-release" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/d1024e13-50db-4d81-9162-51ddc18e135a">
     </figure>
 
 ------------------------------------------------------------------------
