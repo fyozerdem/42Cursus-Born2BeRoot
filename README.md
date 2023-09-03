@@ -1,4 +1,4 @@
-<img width="1080" alt="Ekran_Resmi_2023-08-14_OS_9 12 10" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/75c09a74-303c-4e31-931b-439e60de6920"># 42Cursus-Born2BeRoot
+# 42Cursus-Born2BeRoot
 
 # Sorular
 
