@@ -1,4 +1,4 @@
-# 42Cursus-Born2BeRoot
+<img width="1336" alt="Ekran_Resmi_2023-08-14_OS_6 27 33" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/7de9ea61-efda-47c1-9ac3-cccdc2dd8a65"># 42Cursus-Born2BeRoot
 
 # Sorular
 
@@ -265,7 +265,7 @@ karşılaştır.Bu idnin işlem sornası değişmemesini istiyosan sanal makine
     `grep -w user42 etc/group` or `getent group user42`
 
     <figure>
-    <img width="325" alt="Ekran_Resmi_2023-08-14_OS_3 02 46" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/27f565db-c7f3-4350-98cc-a72496273339">
+       <img width="325" alt="Ekran_Resmi_2023-08-14_OS_3 02 46" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/3dd6a313-af48-48b2-9da5-5ddbda8a0b2c">
     </figure>
 
 <!-- -->
@@ -348,7 +348,7 @@ karşılaştır.Bu idnin işlem sornası değişmemesini istiyosan sanal makine
             →`enforce_for_root `**→ Tüm bu şifre politikasını **root **kullanıcısı üzerinde uygulanır.**
 
             <figure>
-            <img width="800" alt="deneme" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/bcb4609d-10fb-4fa6-8d55-065d02de4bca">
+              ![deneme](https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/59750f7e-ba80-423d-bc62-b29dd8547bd8)
             </figure>
 
         `sha512` → Bu modül, kullanıcıların parola doğrulama işlemlerini
@@ -397,7 +397,7 @@ karşılaştır.Bu idnin işlem sornası değişmemesini istiyosan sanal makine
     `groups kullanıcı` → kullanıcıların bağlı olduğu grupları gösterir
 
     <figure>
-    <img width="567" alt="Ekran_Resmi_2023-08-14_OS_8 16 24" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/b50affc8-3908-4608-b4fd-90f5ad63dd31">
+       <img width="567" alt="Ekran_Resmi_2023-08-14_OS_8 16 24" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/980997de-5af2-46ee-8eea-1793d38f0750">
     </figure>
 
 <!-- -->
@@ -453,7 +453,7 @@ karşılaştır.Bu idnin işlem sornası değişmemesini istiyosan sanal makine
     `lsblk`
 
        <figure>
-       <img width="500" alt="Ekran_Resmi_2023-08-24_OS_6 23 04" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/d8ab45bc-6f64-429c-9343-c5cc46b8ca3c">
+           <img width="824" alt="Ekran_Resmi_2023-08-24_OS_6 23 04" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/a66b53e4-679b-4d79-9a60-3fd3f0533d4a">
         </figure>
 
 
@@ -490,7 +490,7 @@ karşılaştır.Bu idnin işlem sornası değişmemesini istiyosan sanal makine
     -   Ayrıca LVM kopyalama ve ikizleme seçenekleri destekler
 
         <figure>
-       <img width="1336" alt="Ekran_Resmi_2023-08-14_OS_6 27 33" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/35b8eed7-19b7-4ce6-996e-fe8eb3efd9cc">
+            <img width="1336" alt="Ekran_Resmi_2023-08-14_OS_6 27 33" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/81cc90db-1e36-4021-b342-211adc205f21">
         </figure>
 
 <!-- -->
@@ -800,8 +800,7 @@ karşılaştır.Bu idnin işlem sornası değişmemesini istiyosan sanal makine
     aracılığıyla bir komut çalıştırmayı deneyin.
 
     <figure>
-    <img width="934" alt="Ekran_Resmi_2023-08-14_OS_7 24 57" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/b316ff83-ae48-4d11-a15c-30396848dc8f">
-
+       <img width="934" alt="Ekran_Resmi_2023-08-14_OS_7 24 57" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/f259b210-5ad0-4424-9940-c7dd9cf0bd5c">
     </figure>
 
 <!-- -->
@@ -831,8 +830,7 @@ karşılaştır.Bu idnin işlem sornası değişmemesini istiyosan sanal makine
     `sudo ufw status `
 
     <figure>
-    <img width="641" alt="Ekran_Resmi_2023-08-14_OS_7 33 40" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/049ded2c-9aec-4dcd-b7b2-d78bb8d2d848">
-
+        <img width="641" alt="Ekran_Resmi_2023-08-14_OS_7 33 40" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/c2344d0d-82e4-45d5-9059-a4a9e4cba0d5">
     </figure>
 
 <!-- -->
@@ -852,8 +850,7 @@ karşılaştır.Bu idnin işlem sornası değişmemesini istiyosan sanal makine
     `ufw status numbered`
 
     <figure>
-    <img width="738" alt="Ekran_Resmi_2023-08-14_OS_7 36 59" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/d3ec629d-96aa-4f36-818f-9d0f210521d7">
-
+      <img width="738" alt="Ekran_Resmi_2023-08-14_OS_7 36 59" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/79ad4cda-6eab-4b6b-93f4-872997762959">
     </figure>
 
     `ufw delete 2 `
@@ -1007,8 +1004,7 @@ CRON
         ama `uname -a` diyince komple mimariyi veriyor.
 
         <figure>
-        <img width="1088" alt="Ekran_Resmi_2023-08-11_OS_5 33 43" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/694df40f-4690-4346-bf70-42618a2b8049">
-
+          <img width="1088" alt="Ekran_Resmi_2023-08-11_OS_5 33 43" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/70da01e0-3b64-4e8e-a5db-2e5dbffc9a17">
         </figure>
 
         **Linux**: İşletim sistemi çekirdek türünü gösterir.
@@ -1058,8 +1054,7 @@ CRON
             sisteminizde iki fiziksel işlemci bulunduğunu gösterir.
 
             <figure>
-               <img width="443" alt="Ekran_Resmi_2023-08-11_OS_5 37 30" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/a0fe6a6b-7d19-4b58-91b5-baed14a34580">
-
+                <img width="443" alt="Ekran_Resmi_2023-08-11_OS_5 37 30" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/880009a4-8adc-492b-905a-d17585f61116">
             </figure>
 
             physical id : 0 physical id : 0 physical id : 1 physical id : 1
@@ -1102,8 +1097,7 @@ CRON
             olduğunu gösterir.
 
             <figure>
-               <img width="593" alt="Ekran_Resmi_2023-08-11_OS_5 40 25" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/766e2c5c-0940-4db9-a60e-4fa93a7299e5">
-
+                <img width="593" alt="Ekran_Resmi_2023-08-11_OS_5 40 25" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/8521cdeb-a8ea-411f-acea-834358b3ce80">
             </figure>
 
             Burdaki swap Mem: i aşan durumlarda swap alanında kullanılan
@@ -1159,7 +1153,7 @@ CRON
             yazdırır.
 
             <figure>
-              <img width="591" alt="Ekran_Resmi_2023-08-11_OS_6 20 56" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/dff251d6-4f88-4635-a6ff-456eff618ebb">
+                 <img width="591" alt="Ekran_Resmi_2023-08-11_OS_6 20 56" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/a145634a-a0e1-4f44-82cb-735afc515845">
 
             </figure>
 
@@ -1177,7 +1171,7 @@ CRON
         satırları içerir.
 
         <figure>
-            <img width="515" alt="Ekran_Resmi_2023-08-11_OS_6 22 42" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/da20245a-6f79-4d17-9e17-3fab601c120c">
+          <img width="515" alt="Ekran_Resmi_2023-08-11_OS_6 22 42" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/7dd1a040-5e15-4197-a54e-19283daa14bb">
 
         </figure>
 
@@ -1197,8 +1191,7 @@ CRON
         \# CPU kullanım yüzdesini hesaplar.
 
         <figure>
-           <img width="649" alt="Ekran_Resmi_2023-08-11_OS_6 31 24" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/17a11e1d-39b9-41ed-abb8-e89b316123ee">
-
+          <img width="649" alt="Ekran_Resmi_2023-08-11_OS_6 31 24" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/bb11b880-4bd1-4400-a5cf-b4f17be78491">
         </figure>
 
         1.  `top -bn1`: Bu komut, bir kez çalıştırılan `top` komutunu
@@ -1241,8 +1234,7 @@ CRON
         başlatıldığı tarih ve saati içeren bir satırı içerir.
 
         <figure>
-          <img width="415" alt="Ekran_Resmi_2023-08-11_OS_6 55 33" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/4f67d573-8912-4ea9-9fe3-5b9c9cbc5552">
-
+          <img width="415" alt="Ekran_Resmi_2023-08-11_OS_6 55 33" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/1c389c95-17ec-4ae9-acce-e55f0be8b99b">
         </figure>
 
         </div>
@@ -1252,9 +1244,8 @@ CRON
     -   `lvmt=$(lsblk -o TYPE | grep "lvm" | wc -l)` \# LVM bölümlerinin
         sayısını belirler.
 
-        <figure>
-            <img width="306" alt="Ekran_Resmi_2023-08-11_OS_7 05 17" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/b50ecd95-105a-4ce8-8c6d-86343a09ed16">
-
+        <figure> 
+          <img width="306" alt="Ekran_Resmi_2023-08-11_OS_7 05 17" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/144ba505-4c2e-40d7-93de-beadace5353e">
         </figure>
 
         `lsblk -o TYPE`: Bu komut, disk bölümlerini listeler ve yalnızca
@@ -1275,8 +1266,7 @@ CRON
         bağlantı sayısını belirler.
 
         <figure>
-           <img width="922" alt="Ekran_Resmi_2023-08-11_OS_7 14 06" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/fd241aa9-3a64-4f4d-afd2-36a461a61e36">
-
+           <img width="922" alt="Ekran_Resmi_2023-08-11_OS_7 14 06" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/358b1a5f-8e52-40ff-adcb-9171192a4d17">
         </figure>
 
     <!-- -->
@@ -1318,8 +1308,7 @@ CRON
             adresini alarak ekrana basar.
 
             <figure>
-               <img width="836" alt="Ekran_Resmi_2023-08-11_OS_7 17 17" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/7d4d7064-6ac8-4390-aa16-a09105eb4b29">
-
+              <img width="836" alt="Ekran_Resmi_2023-08-11_OS_7 17 17" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/ae74eeb0-b974-43a6-925f-47948e78ff4b">
             </figure>
 
     <!-- -->
@@ -1339,8 +1328,7 @@ CRON
         onuda ayıklıyoruz
 
         <figure>
-             <img width="1009" alt="Ekran_Resmi_2023-08-11_OS_7 18 52" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/c1a6d2c8-3a89-497e-8d88-da76f652ec3e">
-
+            <img width="1009" alt="Ekran_Resmi_2023-08-11_OS_7 18 52" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/0235f6e3-9977-4028-bd33-53491cd53a2e">
         </figure>
 
         `journalctl` aracılığıyla sistem günlüğünü incelemeyi sağlar.
@@ -1356,8 +1344,8 @@ CRON
     `crontab -e`
     
       <figure>
-          <img width="700" alt="image 18 52" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/e74439f0-15e1-4570-8cc7-af1f9124fd35">
-        </figure>
+           <img width="1009" alt="Ekran_Resmi_2023-08-11_OS_7 18 52" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/185d154f-9631-41f4-9cdf-35fc376eeafe">
+      </figure>
 
 
     ` */10 * * * *` at <span class="mark highlight-yellow">every 10th
@@ -1383,8 +1371,7 @@ CRON
     systemctl status cron ile hangi saaatlerde çalıştığını göerbilriiz
 
     <figure>
-         <img width="1080" alt="Ekran_Resmi_2023-08-14_OS_9 12 10" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/ccdc9eeb-5447-4ea9-879c-b40cb290d694">
-
+       <img width="1080" alt="Ekran_Resmi_2023-08-14_OS_9 12 10" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/79592c7f-47b8-413a-bf0d-6f9c41b4c446">
 
     </figure>
 
