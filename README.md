@@ -1,4 +1,4 @@
-<img width="1336" alt="Ekran_Resmi_2023-08-14_OS_6 27 33" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/7de9ea61-efda-47c1-9ac3-cccdc2dd8a65"># 42Cursus-Born2BeRoot
+# 42Cursus-Born2BeRoot
 
 # Sorular
 
@@ -348,7 +348,7 @@ karşılaştır.Bu idnin işlem sornası değişmemesini istiyosan sanal makine
             →`enforce_for_root `**→ Tüm bu şifre politikasını **root **kullanıcısı üzerinde uygulanır.**
 
             <figure>
-              ![deneme](https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/59750f7e-ba80-423d-bc62-b29dd8547bd8)
+                <img width="325" alt="Ekran_Resmi_2023-08-14_OS_3 02 46" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/59750f7e-ba80-423d-bc62-b29dd8547bd8">
             </figure>
 
         `sha512` → Bu modül, kullanıcıların parola doğrulama işlemlerini
