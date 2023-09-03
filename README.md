@@ -328,7 +328,7 @@ karşılaştır.Bu idnin işlem sornası değişmemesini istiyosan sanal makine
 
             → `dcredit=-1` **→ En az bir sayı içermeli**
 
-            →` ``maxrepeat=3`**→ En fazla 3 ardışık aynı karakter içerebilir.**
+            → `maxrepeat=3`**→ En fazla 3 ardışık aynı karakter içerebilir.**
 
             →`minlen=10` **→ Şifre minimum uzunluğunu 10 karakter**
 
@@ -339,7 +339,7 @@ karşılaştır.Bu idnin işlem sornası değişmemesini istiyosan sanal makine
             Şifre, önceki şifrenin parçası olmayan en az 7 karakter
             içermelidir. 
 
-            →` ``difok=7` **→** önceki şifrenin parçası olmayan en az 7 karakter
+            →`difok=7` **→** önceki şifrenin parçası olmayan en az 7 karakter
 
         <!-- -->
 
@@ -347,10 +347,9 @@ karşılaştır.Bu idnin işlem sornası değişmemesini istiyosan sanal makine
            
             →`enforce_for_root `**→ Tüm bu şifre politikasını **root **kullanıcısı üzerinde uygulanır.**
 
-        <figure>
-        ![Untitled](https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/bb278635-eefb-451b-a39c-fb9d1799bc3e)
-
-        </figure>
+            <figure>
+            <img width="800" alt="deneme" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/bcb4609d-10fb-4fa6-8d55-065d02de4bca">
+            </figure>
 
         `sha512` → Bu modül, kullanıcıların parola doğrulama işlemlerini
         kontrol etmek ve yönlendirmek için kullanılır. `sha512` ise bir
@@ -370,6 +369,7 @@ karşılaştır.Bu idnin işlem sornası değişmemesini istiyosan sanal makine
     <!-- -->
 
     -   Eğer fozerdem üsründe şifre uygulancaksa :
+
         `sudo chage --mindays 2 fozerdem`
 
 <!-- -->
@@ -397,9 +397,7 @@ karşılaştır.Bu idnin işlem sornası değişmemesini istiyosan sanal makine
     `groups kullanıcı` → kullanıcıların bağlı olduğu grupları gösterir
 
     <figure>
-    <img
-    src="Sorular%20167ee0641edc429fb2420d028dc41017/Ekran_Resmi_2023-08-14_OS_8.16.24.png"
-    style="width:1134px" />
+    <img width="567" alt="Ekran_Resmi_2023-08-14_OS_8 16 24" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/b50affc8-3908-4608-b4fd-90f5ad63dd31">
     </figure>
 
 <!-- -->
@@ -454,11 +452,10 @@ karşılaştır.Bu idnin işlem sornası değişmemesini istiyosan sanal makine
 
     `lsblk`
 
-    <figure>
-    <img
-    src="Sorular%20167ee0641edc429fb2420d028dc41017/Ekran_Resmi_2023-08-24_OS_6.23.04.png"
-    style="width:1648px" />
-    </figure>
+       <figure>
+       <img width="500" alt="Ekran_Resmi_2023-08-24_OS_6 23 04" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/d8ab45bc-6f64-429c-9343-c5cc46b8ca3c">
+        </figure>
+
 
 <!-- -->
 
@@ -492,11 +489,9 @@ karşılaştır.Bu idnin işlem sornası değişmemesini istiyosan sanal makine
 
     -   Ayrıca LVM kopyalama ve ikizleme seçenekleri destekler
 
-    <figure>
-    <img
-    src="Sorular%20167ee0641edc429fb2420d028dc41017/Ekran_Resmi_2023-08-14_OS_6.27.33.png"
-    style="width:2672px" />
-    </figure>
+        <figure>
+       <img width="1336" alt="Ekran_Resmi_2023-08-14_OS_6 27 33" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/35b8eed7-19b7-4ce6-996e-fe8eb3efd9cc">
+        </figure>
 
 <!-- -->
 
