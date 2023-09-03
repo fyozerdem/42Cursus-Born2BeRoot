@@ -1,4 +1,4 @@
-,# 42Cursus-Born2BeRoot
+# 42Cursus-Born2BeRoot
 
 # Sorular
 
