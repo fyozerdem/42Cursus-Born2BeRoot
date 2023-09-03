@@ -1,4 +1,4 @@
-# 42Cursus-Born2BeRoot
+,# 42Cursus-Born2BeRoot
 
 # Sorular
 
@@ -864,15 +864,11 @@ karşılaştır.Bu idnin işlem sornası değişmemesini istiyosan sanal makine
 
 <!-- -->
 
--   disable
-
-    disable -\> `systemctl disable ufw`
+- disable -\> `systemctl disable ufw`
 
 <!-- -->
 
--   inactive
-
-    inactive → `systemctl stop ufw`
+-   inactive → `systemctl stop ufw`
 
 ------------------------------------------------------------------------
 
@@ -992,11 +988,11 @@ CRON
 
     <!-- -->
 
-    2.  `cd ``/usr/local/bin/`
+    2.  `cd /usr/local/bin/`
 
     <!-- -->
 
-    3.  `vim ``monitoring.sh`
+    3.  `vim monitoring.sh`
 
     <!-- -->
 
@@ -1011,16 +1007,15 @@ CRON
         ama `uname -a` diyince komple mimariyi veriyor.
 
         <figure>
-        <img
-        src="Sorular%20167ee0641edc429fb2420d028dc41017/Ekran_Resmi_2023-08-11_OS_5.33.43.png"
-        style="width:2176px" />
+        <img width="1088" alt="Ekran_Resmi_2023-08-11_OS_5 33 43" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/694df40f-4690-4346-bf70-42618a2b8049">
+
         </figure>
 
         **Linux**: İşletim sistemi çekirdek türünü gösterir.
 
         server1 → hostname
 
-        • **6.1.0-10-amd64**: Çekirdek versiyonunu gösterir. Bu durumda,
+        **6.1.0-10-amd64**: Çekirdek versiyonunu gösterir. Bu durumda,
         çekirdek versiyonu "6.1.0-10-amd64" olarak belirtilmiştir.
 
         **\#1 SMP PREEMPT_DYNAMIC**: Çekirdek yapılandırmasını ifade
@@ -1058,20 +1053,19 @@ CRON
         4.  `wc -l`: Bu komut, gelen satır sayısını hesaplar. Bu, toplam
             fiziksel işlemci sayısını verir.
 
-        Sonuç olarak, bu komut dizisi size sisteminizde bulunan toplam
-        fiziksel işlemci sayısını verir. Örneğin, eğer sonuç “2” ise,
-        sisteminizde iki fiziksel işlemci bulunduğunu gösterir.
+            Sonuç olarak, bu komut dizisi size sisteminizde bulunan toplam
+            fiziksel işlemci sayısını verir. Örneğin, eğer sonuç “2” ise,
+            sisteminizde iki fiziksel işlemci bulunduğunu gösterir.
 
-        <figure>
-        <img
-        src="Sorular%20167ee0641edc429fb2420d028dc41017/Ekran_Resmi_2023-08-11_OS_5.37.30.png"
-        style="width:886px" />
-        </figure>
+            <figure>
+               <img width="443" alt="Ekran_Resmi_2023-08-11_OS_5 37 30" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/a0fe6a6b-7d19-4b58-91b5-baed14a34580">
 
-        physical id : 0 physical id : 0 physical id : 1 physical id : 1
+            </figure>
 
-        Bu şekildede çıktı olabailir bu durumda 2 fiziksel kimlik vardır
-        0 ve 1 bunların kimlik numarasıdır.
+            physical id : 0 physical id : 0 physical id : 1 physical id : 1
+
+            Bu şekildede çıktı olabailir bu durumda 2 fiziksel kimlik vardır
+            0 ve 1 bunların kimlik numarasıdır.
 
     <!-- -->
 
@@ -1102,19 +1096,18 @@ CRON
         3.  `awk '{print $2}'`: grep komutunun çıktısını alır ve
             satırdaki ikinci alanı (bellek miktarını) yazdırır.
 
-        Sonuç olarak, bu komut dizisi size sistemdeki toplam bellek
-        miktarını megabayt cinsinden verir. Örneğin, eğer sonuç “8192”
-        ise, sisteminizde toplam 8192 megabayt (8 gigabayt) bellek
-        olduğunu gösterir.
+            Sonuç olarak, bu komut dizisi size sistemdeki toplam bellek
+            miktarını megabayt cinsinden verir. Örneğin, eğer sonuç “8192”
+            ise, sisteminizde toplam 8192 megabayt (8 gigabayt) bellek
+            olduğunu gösterir.
 
-        <figure>
-        <img
-        src="Sorular%20167ee0641edc429fb2420d028dc41017/Ekran_Resmi_2023-08-11_OS_5.40.25.png"
-        style="width:1186px" />
-        </figure>
+            <figure>
+               <img width="593" alt="Ekran_Resmi_2023-08-11_OS_5 40 25" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/766e2c5c-0940-4db9-a60e-4fa93a7299e5">
 
-        Burdaki swap Mem: i aşan durumlarda swap alanında kullanılan
-        şeyleri içerir.
+            </figure>
+
+            Burdaki swap Mem: i aşan durumlarda swap alanında kullanılan
+            şeyleri içerir.
 
     <!-- -->
 
@@ -1166,9 +1159,8 @@ CRON
             yazdırır.
 
             <figure>
-            <img
-            src="Sorular%20167ee0641edc429fb2420d028dc41017/Ekran_Resmi_2023-08-11_OS_6.20.56.png"
-            style="width:1182px" />
+              <img width="591" alt="Ekran_Resmi_2023-08-11_OS_6 20 56" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/dff251d6-4f88-4635-a6ff-456eff618ebb">
+
             </figure>
 
             10+3+3+5+3+4 = 28 2.sütünu topluyo yazdırıyor
@@ -1185,9 +1177,8 @@ CRON
         satırları içerir.
 
         <figure>
-        <img
-        src="Sorular%20167ee0641edc429fb2420d028dc41017/Ekran_Resmi_2023-08-11_OS_6.22.42.png"
-        style="width:1030px" />
+            <img width="515" alt="Ekran_Resmi_2023-08-11_OS_6 22 42" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/da20245a-6f79-4d17-9e17-3fab601c120c">
+
         </figure>
 
         3.sutünü toplar yazdırır ekrana 1224
@@ -1206,9 +1197,8 @@ CRON
         \# CPU kullanım yüzdesini hesaplar.
 
         <figure>
-        <img
-        src="Sorular%20167ee0641edc429fb2420d028dc41017/Ekran_Resmi_2023-08-11_OS_6.31.24.png"
-        style="width:1298px" />
+           <img width="649" alt="Ekran_Resmi_2023-08-11_OS_6 31 24" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/17a11e1d-39b9-41ed-abb8-e89b316123ee">
+
         </figure>
 
         1.  `top -bn1`: Bu komut, bir kez çalıştırılan `top` komutunu
@@ -1250,12 +1240,9 @@ CRON
         ve saatini gösterir. Bu komutun çıktısı, sistemin yeniden
         başlatıldığı tarih ve saati içeren bir satırı içerir.
 
-        <div class="indented">
-
         <figure>
-        <img
-        src="Sorular%20167ee0641edc429fb2420d028dc41017/Ekran_Resmi_2023-08-11_OS_6.55.33.png"
-        style="width:830px" />
+          <img width="415" alt="Ekran_Resmi_2023-08-11_OS_6 55 33" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/4f67d573-8912-4ea9-9fe3-5b9c9cbc5552">
+
         </figure>
 
         </div>
@@ -1266,9 +1253,8 @@ CRON
         sayısını belirler.
 
         <figure>
-        <img
-        src="Sorular%20167ee0641edc429fb2420d028dc41017/Ekran_Resmi_2023-08-11_OS_7.05.17.png"
-        style="width:612px" />
+            <img width="306" alt="Ekran_Resmi_2023-08-11_OS_7 05 17" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/b50ecd95-105a-4ce8-8c6d-86343a09ed16">
+
         </figure>
 
         `lsblk -o TYPE`: Bu komut, disk bölümlerini listeler ve yalnızca
@@ -1289,9 +1275,8 @@ CRON
         bağlantı sayısını belirler.
 
         <figure>
-        <img
-        src="Sorular%20167ee0641edc429fb2420d028dc41017/Ekran_Resmi_2023-08-11_OS_7.14.06.png"
-        style="width:1844px" />
+           <img width="922" alt="Ekran_Resmi_2023-08-11_OS_7 14 06" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/fd241aa9-3a64-4f4d-afd2-36a461a61e36">
+
         </figure>
 
     <!-- -->
@@ -1308,12 +1293,6 @@ CRON
             kelime sayısını döndürmesini sağlar. Bu komut dizisi,
             `users` komutunun çıktısındaki kelime sayısını yani oturum
             açmış kullanıcı sayısını verir.
-
-            <figure>
-            <img
-            src="Sorular%20167ee0641edc429fb2420d028dc41017/Ekran_Resmi_2023-08-11_OS_7.21.45.png"
-            style="width:286px" />
-            </figure>
 
     <!-- -->
 
@@ -1338,11 +1317,10 @@ CRON
         3.  `{print $2}`: Seçilen satırlardan ikinci sütunu yani MAC
             adresini alarak ekrana basar.
 
-        <figure>
-        <img
-        src="Sorular%20167ee0641edc429fb2420d028dc41017/Ekran_Resmi_2023-08-11_OS_7.17.17.png"
-        style="width:1672px" />
-        </figure>
+            <figure>
+               <img width="836" alt="Ekran_Resmi_2023-08-11_OS_7 17 17" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/7d4d7064-6ac8-4390-aa16-a09105eb4b29">
+
+            </figure>
 
     <!-- -->
 
@@ -1361,22 +1339,13 @@ CRON
         onuda ayıklıyoruz
 
         <figure>
-        <img
-        src="Sorular%20167ee0641edc429fb2420d028dc41017/Ekran_Resmi_2023-08-11_OS_7.18.52.png"
-        style="width:2018px" />
+             <img width="1009" alt="Ekran_Resmi_2023-08-11_OS_7 18 52" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/c1a6d2c8-3a89-497e-8d88-da76f652ec3e">
+
         </figure>
 
         `journalctl` aracılığıyla sistem günlüğünü incelemeyi sağlar.
 
         command içerenlerin sayısı döner
-
-    <figure>
-    <img
-    src="Sorular%20167ee0641edc429fb2420d028dc41017/Ekran_Resmi_2023-08-24_OS_6.43.08.png"
-    style="width:2374px" />
-    </figure>
-
-    \- Tcp bağlanan yer sayısını tutuyo diğer yerden bağlanınca artıyo.
 
 <!-- -->
 
@@ -1385,12 +1354,11 @@ CRON
     Bu işlemi gerçekleştirmek için "cron" kullanmanız gerekecek.
 
     `crontab -e`
+    
+      <figure>
+          <img width="700" alt="image 18 52" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/e74439f0-15e1-4570-8cc7-af1f9124fd35">
+        </figure>
 
-    \# Example of job definition: \# .---------------- minute (0 - 59)
-    \# \| .------------- hour (0 - 23) \# \| \| .---------- day of month
-    (1 - 31) \# \| \| \| .------- month (1 - 12) OR jan,feb,mar,apr ...
-    \#\| \| \| \| .----dayofweek(0-6)(Sunday=0or7) \#\|\|\|\|\| \# 10\*
-    \* \* \* user-name command to be executed
 
     ` */10 * * * *` at <span class="mark highlight-yellow">every 10th
     minute</span> 21:10, 21:20,21:30 ,..
@@ -1415,9 +1383,9 @@ CRON
     systemctl status cron ile hangi saaatlerde çalıştığını göerbilriiz
 
     <figure>
-    <img
-    src="Sorular%20167ee0641edc429fb2420d028dc41017/Ekran_Resmi_2023-08-14_OS_9.12.10.png"
-    style="width:2220px" />
+         <img width="1080" alt="Ekran_Resmi_2023-08-14_OS_9 12 10" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/ccdc9eeb-5447-4ea9-879c-b40cb290d694">
+
+
     </figure>
 
     `systemctl stop cron` → inactive
