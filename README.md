@@ -1344,7 +1344,7 @@ CRON
     `crontab -e`
     
       <figure>
-           <img width="1009" alt="Ekran_Resmi_2023-08-11_OS_7 18 52" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/185d154f-9631-41f4-9cdf-35fc376eeafe">
+           <img width="450" alt="Ekran_Resmi_2023-08-11_OS_7 18 52" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/185d154f-9631-41f4-9cdf-35fc376eeafe">
       </figure>
 
 
