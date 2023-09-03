@@ -723,18 +723,21 @@ karşılaştır.Bu idnin işlem sornası değişmemesini istiyosan sanal makine
         -   Sudo grubunuz için güçlü bir yapılandırma oluşturmak için
             aşağıdaki gereksinimlere uymanız gerekmektedir:
             1.  Sudo kullanarak kimlik doğrulama, yanlış bir şifre
-                girilmesi durumunda 3 denemeye sınırlanmalıdır. <span
-                class="mark highlight-yellow">**Defaults
-                passwd_tries=3**</span>
+                girilmesi durumunda 3 denemeye sınırlanmalıdır.
+                
+                <!-- -->
+                    Defaults passwd_tries=3
+               <!-- -->
 
             <!-- -->
 
             2.  Sudo kullanılırken yanlış şifre nedeniyle bir hata
                 oluşursa, isteğe bağlı olarak özel bir ileti
-                görüntülenmelidir. <span
-                class="mark highlight-yellow">**Defaults
-                badpass_message=”Hatali Sifre Girdiniz! Lutfen Tekrar
-                Giriniz.”**</span>
+                görüntülenmelidir.
+
+                <!-- -->
+                    Defaults badpass_message=”Hatali Sifre Girdiniz! Lutfen Tekrar Giriniz.”
+                <!-- -->
 
             <!-- -->
 
@@ -743,46 +746,34 @@ karşılaştır.Bu idnin işlem sornası değişmemesini istiyosan sanal makine
                 dosyası, /var/log/sudo/ klasöründe saklanmalıdır.
 
                 Önce `sudo mkdir /var/log/sudo` **ile dosya oluştur**
-                `sudo visudo` **içine** <span
-                class="mark highlight-yellow">**Defaults
-                logfile=”/var/log/sudo/sudo.log”**</span>
+                `sudo visudo` **içine**
+
+                <!-- -->
+                       Defaults logfile="/var/log/sudo/sudo.log"
+                <!-- -->
 
             <!-- -->
 
             4.  Güvenlik nedenleriyle TTY modu etkinleştirilmelidir.
-                <span class="mark highlight-yellow">**Defaults
-                requiretty**</span>
 
-            -   tty
+                <!-- -->
+                      Defaults requiretty
+                <!-- -->
+                
+                -   **Pts ve tty arasındaki fark nedir?**
+                         **tty** normal bir terminal cihazıdır (örneğin sunucunuzdaki konsol).
+                        **pts**, sanal/taklit (uzak) terminal bağımlısıdır (bir xterm veya **ssh** bağlantısı).
 
-                **Pts ve tty arasındaki fark nedir?**
-
-                **tty** normal bir terminal cihazıdır (örneğin
-                sunucunuzdaki konsol).
-
-                **pts**, sanal/taklit (uzak) terminal bağımlısıdır (bir
-                xterm veya **ssh** bağlantısı).
-
-                `Who `
-
-                <figure>
-                <img
-                src="Sorular%20167ee0641edc429fb2420d028dc41017/Ekran_Resmi_2023-08-14_OS_8.14.39.png"
-                style="width:656px" />
-                </figure>
-
-            1.  Güvenlik nedenleriyle sudo tarafından kullanılabilecek
-                yollar sınırlanmalıdır. Örnek:
-                /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin
-                <span class="mark highlight-yellow">**Defaults
-                secure_path=”/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin”**</span>
+            6.  Güvenlik nedenleriyle sudo tarafından kullanılabilecek
+                yollar sınırlanmalıdır.
+                <!-- -->
+                      Defaults  secure_path=”/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin
+                <!-- -->
+                
 
         <!-- -->
 
-        -   <span
-            class="mark highlight-yellow">`Defaults`</span>` log_input,log_output`
-
-            "log_input" seçeneği, sudo komutunun kullanıcı tarafından
+        -  "log_input" seçeneği, sudo komutunun kullanıcı tarafından
             girilen komutları günlüğe kaydetmesini sağlar. Bu,
             kullanıcının hangi komutları çalıştırdığını izlemek için
             yararlı olabilir.
@@ -791,31 +782,9 @@ karşılaştır.Bu idnin işlem sornası değişmemesini istiyosan sanal makine
             çıktısını günlüğe kaydetmesini sağlar. Bu, komutun çıktısını
             takip etmek ve olası hataları veya sorunları tespit etmek
             için kullanışlı olabilir.
-
-        <!-- -->
-
-        -   `defaults mail_badpass`
-
-            Bu kural, sudoers dosyasında isteğe bağlı olarak eklenen bir
-            ayar olup, yanlış parola girişlerinin izlenmesini ve
-            güvenlik olaylarına hızlı bir şekilde müdahale edilmesini
-            sağlamak için kullanılabilir.
-
-        <!-- -->
-
-        -   `defaults env_reset`
-
-            sudo komutunun güvenli bir şekilde kullanılmasını teşvik
-            etmek ve beklenmedik güvenlik açıklarını önlemek için yaygın
-            olarak kullanılan bir uygulamadır.
-
-        <!-- -->
-
-        -   `defaults use_pty`,
-
-            sudo komutunun bir PTY kullanarak çalışmasını sağlar,
-            böylece komutlar etkileşimli bir terminal benzeri ortamda
-            yürütülebilir.
+            <!-- -->
+                      Defaults  log_input,log_output
+              <!-- -->
 
 <!-- -->
 
@@ -831,14 +800,9 @@ karşılaştır.Bu idnin işlem sornası değişmemesini istiyosan sanal makine
     aracılığıyla bir komut çalıştırmayı deneyin.
 
     <figure>
-    <img
-    src="Sorular%20167ee0641edc429fb2420d028dc41017/Ekran_Resmi_2023-08-14_OS_7.24.57.png"
-    style="width:1868px" />
+    <img width="934" alt="Ekran_Resmi_2023-08-14_OS_7 24 57" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/b316ff83-ae48-4d11-a15c-30396848dc8f">
+
     </figure>
-
-    su - fozerdem
-
-    sudo systemctl status ufw
 
 <!-- -->
 
@@ -867,9 +831,8 @@ karşılaştır.Bu idnin işlem sornası değişmemesini istiyosan sanal makine
     `sudo ufw status `
 
     <figure>
-    <img
-    src="Sorular%20167ee0641edc429fb2420d028dc41017/Ekran_Resmi_2023-08-14_OS_7.33.40.png"
-    style="width:1282px" />
+    <img width="641" alt="Ekran_Resmi_2023-08-14_OS_7 33 40" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/049ded2c-9aec-4dcd-b7b2-d78bb8d2d848">
+
     </figure>
 
 <!-- -->
@@ -889,14 +852,11 @@ karşılaştır.Bu idnin işlem sornası değişmemesini istiyosan sanal makine
     `ufw status numbered`
 
     <figure>
-    <img
-    src="Sorular%20167ee0641edc429fb2420d028dc41017/Ekran_Resmi_2023-08-14_OS_7.36.59.png"
-    style="width:1476px" />
+    <img width="738" alt="Ekran_Resmi_2023-08-14_OS_7 36 59" src="https://github.com/fyozerdem/42Cursus-Born2BeRoot/assets/138295010/d3ec629d-96aa-4f36-818f-9d0f210521d7">
+
     </figure>
 
     `ufw delete 2 `
-
-    `ufw status numbered`
 
     `ufw delete 3`
 
